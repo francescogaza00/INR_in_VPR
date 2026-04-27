@@ -9,7 +9,7 @@
 
 This repository implements a geo-localisation pipeline that combines frozen visual-place-recognition (VPR) backbones with a lightweight MLP head to predict the camera position and bearing from a single RGB image.
 
-The geographic area of interest is a small region of **San Francisco** (bounding box defined in `Constants.py`). The spatial extent is discretised into an **M × M grid** of cells (M); together with **12 bearing bins** (30° each) this yields **M² × 12 = total classes**.
+The geographic area of interest is a small region in San Francisco (bounding box defined in Constants.py). To simplify the task**,** the spatial extent can be discretised into an M × M grid of cells (M); together with 12 bearing bins (30° each), this yields M² × 12 = total classes.
 
 ---
 
